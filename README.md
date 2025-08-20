@@ -29,17 +29,18 @@ This repository contains everything you need to:
 
 ```
 ├── data/                   # Raw and cleaned corpora  
-├── src/                    
-│   ├── cleaning/           # Cleaning scripts & ftfy utilities  
-│   ├── tokenization/       # Hugging Face Tokenizer wrappers  
-│   ├── annotation/         # spaCy pipelines (POS, NER, dependencies)  
-│   ├── dataset/            # PyTorch Dataset & DataLoader  
-│   ├── training/           # Transformer fine-tuning and utilities  
-│   ├── evaluation/         # Evaluation scripts (perplexity, BLEU…)  
-│   └── api/                # FastAPI + TorchServe/ONNX inference  
-├── notebooks/              # Experiments and visualizations  
-├── requirements.txt        # Python dependencies  
-└── README.md               # Project overview and quick start  
+├── src/
+│   ├── ingestion/
+│   ├── cleaning/
+│   ├── tokenization/
+│   ├── annotation/
+│   ├── dataset/
+│   ├── training/
+│   ├── evaluation/
+│   └── api/
+├── notebooks/
+├── requirements.txt
+└── README.md
 ```
 
 ## 🚀 Installation
